@@ -282,3 +282,4 @@ C:\Users\Yoelvyn\source\repos\ReservaTours\ReservaTours\bin\Debug\net8.0\runtime
 C:\Users\Yoelvyn\source\repos\ReservaTours\ReservaTours\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Drawing.Common.dll
 C:\Users\Yoelvyn\source\repos\ReservaTours\ReservaTours\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\Yoelvyn\source\repos\ReservaTours\ReservaTours\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Windows.Extensions.dll
+C:\Users\Yoelvyn\source\repos\ReservaTours\ReservaTours\obj\Debug\net8.0\ReservaTours.sourcelink.json

@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
+using ReservaTours.Data;
 using ReservaTours.Models;
 
 namespace ReservaTours.Controllers
@@ -56,7 +57,7 @@ namespace ReservaTours.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,UsuarioId,Mensaje,FechaEnvio")] Notificacione notificacione)
+        public async Task<IActionResult> Create([Bind("Id,UsuarioId,Mensaje,FechaEnvio")] Notificaciones notificacione)
         {
             if (ModelState.IsValid)
             {
@@ -90,7 +91,7 @@ namespace ReservaTours.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,UsuarioId,Mensaje,FechaEnvio")] Notificacione notificacione)
+        public async Task<IActionResult> Edit(int id, [Bind("Id,UsuarioId,Mensaje,FechaEnvio")] Notificaciones notificacione)
         {
             if (id != notificacione.Id)
             {

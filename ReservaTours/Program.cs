@@ -1,8 +1,5 @@
-
-
-
-using ReservaTours.Models;
 using Microsoft.EntityFrameworkCore;
+using ReservaTours.Data;
 
 var builder = WebApplication.CreateBuilder(args);
 

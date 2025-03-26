@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace ReservaTours.Models;
 
-public partial class Notificacione
+public partial class Notificaciones
 {
     public int Id { get; set; }
 

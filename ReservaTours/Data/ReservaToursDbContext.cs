@@ -1,8 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using Microsoft.EntityFrameworkCore;
+using ReservaTours.Models;
 
-namespace ReservaTours.Models;
+namespace ReservaTours.Data;
 
 public partial class ReservaToursDbContext : DbContext
 {
@@ -15,7 +16,7 @@ public partial class ReservaToursDbContext : DbContext
     {
     }
 
-    public virtual DbSet<Notificacione> Notificaciones { get; set; }
+    public virtual DbSet<Notificaciones> Notificaciones { get; set; }
 
     public virtual DbSet<Reserva> Reservas { get; set; }
 
@@ -28,7 +29,7 @@ public partial class ReservaToursDbContext : DbContext
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
-        modelBuilder.Entity<Notificacione>(entity =>
+        modelBuilder.Entity<Notificaciones>(entity =>
         {
             entity.HasKey(e => e.Id).HasName("PK__Notifica__3214EC07182BD631");
 

@@ -13,7 +13,7 @@ public partial class Usuario
 
     public bool EsAdmin { get; set; }
 
-    public virtual ICollection<Notificacione> Notificaciones { get; set; } = new List<Notificacione>();
+    public virtual ICollection<Notificaciones> Notificaciones { get; set; } = new List<Notificaciones>();
 
     public virtual ICollection<Reserva> Reservas { get; set; } = new List<Reserva>();
 }
