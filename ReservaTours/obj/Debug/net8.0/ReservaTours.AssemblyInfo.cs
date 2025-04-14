@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ReservaTours")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9055a8df68c06341a13eae21a8a9c198a378a3cc")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b1e4f8ad4b551138304b59b6b1e14faac055d9ec")]
 [assembly: System.Reflection.AssemblyProductAttribute("ReservaTours")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ReservaTours")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
