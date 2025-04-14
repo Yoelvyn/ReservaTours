@@ -1,4 +1,8 @@
-﻿<!DOCTYPE html>
+﻿
+
+
+
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8" />
@@ -8,8 +12,71 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/ReservaTours.styles.css" asp-append-version="true" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+    <style>
+    .card:hover {
+        transform: scale(1.02);
+        transition: transform 0.3s ease;
+    }
+
+        .nav-link:hover {
+            background-color: #7AC6D2;
+            border-radius: 5px;
+        }
+   
+
+    
+        body {
+            background-image: url('/imagen/Reservas1.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+
+        .fancy-title {
+            font-size: 3rem;
+            font-weight: bold;
+            color: #ffffff;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.6);
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            padding: 20px;
+          
+            border-radius: 10px;
+            display: inline-block;
+        }
+
+        <style >
+        form .form-label {
+            color: #3D90D7;
+        }
+
+        form .form-control:focus,
+        form .form-select:focus {
+            border-color: #3D90D7;
+            box-shadow: 0 0 5px rgba(61, 144, 215, 0.5);
+
+
+        }
+
+
+    </style>
+
+    
+
+
+
+
 </head>
 <body>
+ 
+
+   
+
+    @*  
+        Este es el codigo viejo de la barra de navegacion
+
     <header>
         <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
             <div class="container-fluid">
@@ -24,9 +91,7 @@
                             <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
                         </li>
 
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
-                        </li>
+                       
 
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="Usuarios" asp-action="Index">Usuarios</a>
@@ -49,17 +114,58 @@
             </div>
         </nav>
     </header>
+
+    *@
+
+    <div class="d-flex">
+        <!-- Sidebar -->
+        <div class="text-white p-3 vh-100" style="width: 200px; position: fixed; background-color: #3D90D7;">
+
+            <h4 class="text-center mb-4">Reservas Tours</h4>
+            <ul class="nav flex-column">
+                <li class="nav-item mb-3">
+                    <a class="nav-link text-white" asp-controller="Home" asp-action="Index">
+                        <i class="bi bi-house-door-fill me-2"></i> Inicio
+                    </a>
+                </li>
+                <li class="nav-item mb-3">
+                    <a class="nav-link text-white" asp-controller="Reservas" asp-action="Index">
+                        <i class="bi bi-calendar-check-fill me-2"></i> Reservas
+                    </a>
+                </li>
+                <li class="nav-item mb-3">
+                    <a class="nav-link text-white" asp-controller="Tours" asp-action="Index">
+                        <i class="bi bi-map-fill me-2"></i> Tours
+                    </a>
+                </li>
+                <li class="nav-item mb-3">
+                    <a class="nav-link text-white" asp-controller="Usuarios" asp-action="Index">
+                        <i class="bi bi-people-fill me-2"></i> Usuarios
+                    </a>
+                </li>
+                <li class="nav-item mb-3">
+                    <a class="nav-link text-white" asp-controller="Notificaciones" asp-action="Index">
+                        <i class="bi bi-bell-fill me-2"></i> Notificaciones
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="flex-grow-1" style="margin-left: 250px;">
+            @RenderBody()
+        </div>
+    </div>
+
+
     <div class="container">
         <main role="main" class="pb-3">
             @RenderBody()
         </main>
     </div>
 
-    <footer class="border-top footer text-muted">
-        <div class="container">
-            &copy; 2025 - ReservaTours - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
-        </div>
-    </footer>
+   
+        
+   
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>

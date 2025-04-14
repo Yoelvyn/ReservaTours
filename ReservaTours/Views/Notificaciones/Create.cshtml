@@ -4,11 +4,44 @@
     ViewData["Title"] = "Create";
 }
 
-<h1>Create</h1>
+<h1>Crear</h1>
 
 <h4>Notificaciones</h4>
 <hr />
-<div class="row">
+
+@*div class="row">*@
+
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <div class="card shadow-lg p-4 rounded-4 bg-light">
+                <h3 class="text-center mb-4">Nueva Notificación</h3>
+
+                <form asp-action="Create">
+                    <div asp-validation-summary="ModelOnly" class="text-danger mb-3"></div>
+
+                    <div class="form-group mb-3">
+                        <label asp-for="UsuarioId" class="form-label fw-semibold">Usuario</label>
+                        <select asp-for="UsuarioId" class="form-select" asp-items="ViewBag.UsuarioId"></select>
+                    </div>
+
+                    <div class="form-group mb-3">
+                        <label asp-for="Mensaje" class="form-label fw-semibold">Mensaje</label>
+                        <input asp-for="Mensaje" class="form-control rounded-3" />
+                        <span asp-validation-for="Mensaje" class="text-danger"></span>
+                    </div>
+
+                    <div class="text-center mt-4">
+                        <button type="submit" class="btn btn-primary px-4 py-2 rounded-3 shadow-sm">
+                            <i class="bi bi-send-fill me-2"></i>Enviar Notificación
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+    @* 
     <div class="col-md-4">
         <form asp-action="Create">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
@@ -21,15 +54,18 @@
                 <input asp-for="Mensaje" class="form-control" />
                 <span asp-validation-for="Mensaje" class="text-danger"></span>
             </div>
+            <br />
             <div class="form-group">
-                <input type="submit" value="Save" class="btn btn-primary" />
+                <input type="submit" value="Guardar" class="btn btn-primary" />
             </div>
         </form>
     </div>
 </div>
 
+    *@
+
 <div>
-    <a class="btn btn-success" asp-action="Index">Back to List</a>
+<a asp-action="Index" class="btn btn-success">Atrás</a>
 </div>
 
 @section Scripts {

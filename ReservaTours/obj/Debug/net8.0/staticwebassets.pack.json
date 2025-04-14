@@ -13,6 +13,46 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\Yoelvyn\\source\\repos\\ReservaTours\\ReservaTours\\wwwroot\\imagen\\Fondo1.jpg",
+      "PackagePath": "staticwebassets\\imagen\\Fondo1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Yoelvyn\\source\\repos\\ReservaTours\\ReservaTours\\wwwroot\\imagen\\Fondo2.webp",
+      "PackagePath": "staticwebassets\\imagen\\Fondo2.webp"
+    },
+    {
+      "Id": "C:\\Users\\Yoelvyn\\source\\repos\\ReservaTours\\ReservaTours\\wwwroot\\imagen\\Notificaciones.jpg",
+      "PackagePath": "staticwebassets\\imagen\\Notificaciones.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Yoelvyn\\source\\repos\\ReservaTours\\ReservaTours\\wwwroot\\imagen\\Notificaciones1.jpg",
+      "PackagePath": "staticwebassets\\imagen\\Notificaciones1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Yoelvyn\\source\\repos\\ReservaTours\\ReservaTours\\wwwroot\\imagen\\Reservas.jpg",
+      "PackagePath": "staticwebassets\\imagen\\Reservas.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Yoelvyn\\source\\repos\\ReservaTours\\ReservaTours\\wwwroot\\imagen\\Reservas1.jpg",
+      "PackagePath": "staticwebassets\\imagen\\Reservas1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Yoelvyn\\source\\repos\\ReservaTours\\ReservaTours\\wwwroot\\imagen\\Tours.jpg",
+      "PackagePath": "staticwebassets\\imagen\\Tours.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Yoelvyn\\source\\repos\\ReservaTours\\ReservaTours\\wwwroot\\imagen\\Tours1.jpg",
+      "PackagePath": "staticwebassets\\imagen\\Tours1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Yoelvyn\\source\\repos\\ReservaTours\\ReservaTours\\wwwroot\\imagen\\Usuarios1.jpg",
+      "PackagePath": "staticwebassets\\imagen\\Usuarios1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Yoelvyn\\source\\repos\\ReservaTours\\ReservaTours\\wwwroot\\imagen\\Ususarios.jpg",
+      "PackagePath": "staticwebassets\\imagen\\Ususarios.jpg"
+    },
+    {
       "Id": "C:\\Users\\Yoelvyn\\source\\repos\\ReservaTours\\ReservaTours\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
