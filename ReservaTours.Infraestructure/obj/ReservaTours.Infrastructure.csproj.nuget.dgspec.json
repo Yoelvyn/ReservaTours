@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Yoelvyn\\source\\repos\\ReservaTours\\ReservaTours.Infraestructure\\ReservaTours.Infraestructure.csproj": {}
+    "C:\\Users\\Yoelvyn\\source\\repos\\ReservaTours\\ReservaTours.Infraestructure\\ReservaTours.Infrastructure.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Yoelvyn\\source\\repos\\ReservaTours\\ReservaTours.Infraestructure\\ReservaTours.Infraestructure.csproj": {
+    "C:\\Users\\Yoelvyn\\source\\repos\\ReservaTours\\ReservaTours.Infraestructure\\ReservaTours.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Yoelvyn\\source\\repos\\ReservaTours\\ReservaTours.Infraestructure\\ReservaTours.Infraestructure.csproj",
-        "projectName": "ReservaTours.Infraestructure",
-        "projectPath": "C:\\Users\\Yoelvyn\\source\\repos\\ReservaTours\\ReservaTours.Infraestructure\\ReservaTours.Infraestructure.csproj",
+        "projectUniqueName": "C:\\Users\\Yoelvyn\\source\\repos\\ReservaTours\\ReservaTours.Infraestructure\\ReservaTours.Infrastructure.csproj",
+        "projectName": "ReservaTours.Infrastructure",
+        "projectPath": "C:\\Users\\Yoelvyn\\source\\repos\\ReservaTours\\ReservaTours.Infraestructure\\ReservaTours.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\Yoelvyn\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\Yoelvyn\\source\\repos\\ReservaTours\\ReservaTours.Infraestructure\\obj\\",
         "projectStyle": "PackageReference",

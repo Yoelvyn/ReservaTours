@@ -9,13 +9,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReservaTours.Application", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReservaTours.Domain", "ReservaTours.Domain\ReservaTours.Domain.csproj", "{2E2494AE-79A3-4BA4-B533-EF0A722BC32A}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReservaTours.Infraestructure", "ReservaTours.Infraestructure\ReservaTours.Infraestructure.csproj", "{024BCAF8-A177-4236-B6F5-86CEDA5B7D56}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReservaTours.Infrastructure", "ReservaTours.Infraestructure\ReservaTours.Infrastructure.csproj", "{024BCAF8-A177-4236-B6F5-86CEDA5B7D56}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReservaTours.IOC", "ReservaTours.IOC\ReservaTours.IOC.csproj", "{6DAB6444-12C9-40A5-90B5-50FE57F965B8}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReservaTours.Web", "ReservaTours.Web\ReservaTours.Web.csproj", "{399F39E4-4D66-48DE-8966-DDD66227C876}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReservaTours.Api", "ReservaTours.Api\ReservaTours.Api.csproj", "{404F2183-2536-47AB-8097-BBD41C71A9BC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReservaTours.Api", "ReservaTours.Api\ReservaTours.Api.csproj", "{404F2183-2536-47AB-8097-BBD41C71A9BC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

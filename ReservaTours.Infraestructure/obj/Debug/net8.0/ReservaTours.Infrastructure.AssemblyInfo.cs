@@ -11,12 +11,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("ReservaTours.Web")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("ReservaTours.Infrastructure")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9719836490f84677472eeddfbcbc9f51b0a0dd6c")]
-[assembly: System.Reflection.AssemblyProductAttribute("ReservaTours.Web")]
-[assembly: System.Reflection.AssemblyTitleAttribute("ReservaTours.Web")]
+[assembly: System.Reflection.AssemblyProductAttribute("ReservaTours.Infrastructure")]
+[assembly: System.Reflection.AssemblyTitleAttribute("ReservaTours.Infrastructure")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // Generado por la clase WriteCodeFragment de MSBuild.
